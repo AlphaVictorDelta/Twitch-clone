@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
+import authReducer from './authReducer';
 
 export default combineReducers({
     // Add additional reducers here
-    replaceMe: () => 'asdfgh'
+    auth: authReducer
 });
